@@ -1,0 +1,90 @@
+img {
+    max-width: 10rem;
+    max-height: 100%;
+    border-radius: 1rem;
+}
+
+.card {
+    background-color: rgba(47, 44, 51, 0.5);
+    width: 32rem;
+    height: auto;
+    margin: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.content {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 2rem;
+}
+
+.title {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.volume {
+    background-color: transparent;
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem   ;
+}
+
+#openModalButton {
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: #333;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.4s all 0.2s;
+}
+
+#openModalButton:hover {
+    background-color: #666;
+}
+
+dialog {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    position: fixed;
+    top: 0;
+}
+
+menu {
+    width: 100%;
+    height: auto;
+    padding: 4rem 1rem;
+    position: fixed;
+}
+
+menu button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: #333;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.4s all 0.2s;
+}
+
+menu button:hover {
+    background-color: #666;
+}
