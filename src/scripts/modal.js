@@ -11,7 +11,7 @@ function modal() {
             })
         }
     )
-
+    
     closeModals.forEach(
         function(closeButton) {
             closeButton.addEventListener("click", function() {
